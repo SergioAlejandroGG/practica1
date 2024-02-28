@@ -11,10 +11,9 @@ import { PrimerDiaComponent } from './primer-dia/primer-dia.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'my-first-project';
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ducimus aliquam, saepe ex quasi iste delectus aspernatur quis, mollitia minima laboriosam et ipsa quidem alias in. Ab distinctio voluptate laudantium."
-card = {
-  title: 'Titulo principal',
-  description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ducimus aliquam, saepe ex quasi iste delectus aspernatur quis, mollitia minima laboriosam et ipsa quidem alias in. Ab distinctio voluptate laudantium." 
+title(title: any) {
+  throw new Error('Method not implemented.');
 }
+dinamico = 'la variable de hijo soy yo'  
 }
+
