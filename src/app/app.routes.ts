@@ -19,5 +19,10 @@ export const routes: Routes = [
         component: SegundoDiaComponent
     },
 
+    {
+        path: '**',
+        component: PrimerDiaComponent
+    }
+
 ];
 
