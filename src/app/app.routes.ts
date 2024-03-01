@@ -2,12 +2,13 @@ import { Routes } from '@angular/router';
 import { PrimerDiaComponent } from './primer-dia/primer-dia.component';
 import { SegundoDiaComponent } from './segundo-dia/segundo-dia.component';
 import { TercerDiaComponent } from './tercer-dia/tercer-dia.component';
+import { ProyectoFinalComponent } from './proyecto-final/proyecto-final.component';
 
 export const routes: Routes = [
 
     {
         path: '',
-        component: PrimerDiaComponent
+        component: ProyectoFinalComponent
     },
 
     {
@@ -27,7 +28,7 @@ export const routes: Routes = [
 
     {
         path: '**',
-        component: PrimerDiaComponent
+        component: ProyectoFinalComponent
     }
 
 ];
